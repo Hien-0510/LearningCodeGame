@@ -1,7 +1,7 @@
 namespace HelloWorld{
     public class CharacterCons: CharacterGetSet{
         public CharacterCons(){}
-        public CharacterCons(int id, string name, int exp, int level, int health, int mana, int power, int defense, int speed)
+        public CharacterCons(string id, string name, int exp, int level, int health, int mana, int power, int defense, int speed)
         {
             Id = id;
             Name = name;

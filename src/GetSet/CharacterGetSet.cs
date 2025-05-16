@@ -2,12 +2,7 @@ using System.Diagnostics.Tracing;
 
 namespace HelloWorld{
     public class CharacterGetSet{
-        private static int _idCounter = 0;
-        public CharacterGetSet()
-        {
-            Id = ++_idCounter;
-        }
-        public int Id { get; set; }
+        public string Id { get; set; } = Guid.NewGuid().ToString();
         public string Name { get; set; }
         public int Exp { get; set; }
         public int Level { get; set; } = 1;

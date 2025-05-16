@@ -1,0 +1,30 @@
+Id: 4ca0afff-b156-4e49-9a75-86233abab9c6
+Name: a
+Exp: 0
+Level: 1
+Health: 100
+Mana: 100
+Power: 2
+Defense: 5
+Speed: 5
+
+Id: 6cf05be6-0fed-46fb-a67f-977fe7a5c210
+Name: b
+Exp: 0
+Level: 1
+Health: 100
+Mana: 100
+Power: 2
+Defense: 2
+Speed: 5
+
+Id: 90a9038d-4a2b-4b43-84a0-9330bac0c9ba
+Name: A
+Exp: 0
+Level: 1
+Health: 100
+Mana: 100
+Power: 2
+Defense: 8
+Speed: 9
+

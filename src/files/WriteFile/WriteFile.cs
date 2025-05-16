@@ -3,7 +3,7 @@ namespace HelloWorld{
         private object sw;
 
         public void WriteFileMethod(){
-            string filePath = "History.txt";
+            string filePath = "Members.txt";
             if (File.Exists(filePath))
             {
 

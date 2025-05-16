@@ -8,7 +8,7 @@ namespace HelloWorld
     {
         public static void Main(string[] args)
         {
-            
+
             bool temp = true;
             int choice;
             do
@@ -55,6 +55,10 @@ namespace HelloWorld
                         break;
                 }
             } while (temp);
+
+            // CharacterAbs character = new CharacterAbs();
+            // character.Player();
+            // character.Enemy();
         }
     }
 }

@@ -1,7 +1,7 @@
 namespace HelloWorld{
     public class ReadFile{
         public void ReadFileMethod(){
-            string filePath = "History.txt";
+            string filePath = "Members.txt";
 
             if (File.Exists(filePath))
             {
@@ -9,6 +9,7 @@ namespace HelloWorld{
                 string content = File.ReadAllText(filePath);
                 Console.WriteLine("-----------------------------");
                 Console.WriteLine("File content:");
+                Console.WriteLine("");
                 Console.WriteLine(content);
             }
             else

@@ -1,7 +1,7 @@
 namespace HelloWorld{
     public class CreateFile{
         public void CreateFileMethod(){
-            string filePath = "History.txt";
+            string filePath = "Members.txt";
             if (!File.Exists(filePath))
             {
                 Console.WriteLine("File does not exist. Creating file...");
