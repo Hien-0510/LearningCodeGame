@@ -1,10 +1,9 @@
 namespace HelloWorld{
-    public class Character : CharacterCons, ICharacter
+    public class Character : CharacterAbs
     {
         public void Input()
         {
-            Console.Write("Enter your name:");
-            Name = Console.ReadLine();
+            
         }
     }
 }

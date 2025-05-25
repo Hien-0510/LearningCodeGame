@@ -1,5 +1,5 @@
 namespace HelloWorld{
-    public class WriteFile: CharacterAbs{
+    public class WriteFile: Character{
         private object sw;
 
         public void WriteFileMethod(){
@@ -14,11 +14,13 @@ namespace HelloWorld{
                     sw.WriteLine("Name: " + Name);
                     sw.WriteLine("Exp: " + Exp);
                     sw.WriteLine("Level: " + Level);
-                    sw.WriteLine("Health: " + Health);
+                    sw.WriteLine("Health: " + MaxHealth);
                     sw.WriteLine("Mana: " + Mana);
                     sw.WriteLine("Power: " + Power);
                     sw.WriteLine("Defense: " + Defense);
                     sw.WriteLine("Speed: " + Speed);
+                    sw.WriteLine("Skills: " + string.Join(", ", Skills ?? new List<string>()));
+                    sw.WriteLine("Item: " + Item);
                     sw.WriteLine();
                 }
                 Console.WriteLine("Data written to file successfully.");
