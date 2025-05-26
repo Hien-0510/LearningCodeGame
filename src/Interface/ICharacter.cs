@@ -3,6 +3,7 @@ namespace HelloWorld{
     {
         public void Player() { }
         public void Enemy() { }
+        public void Attack() { }
 
     }
 }

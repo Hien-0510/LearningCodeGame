@@ -55,10 +55,6 @@ namespace HelloWorld
                         break;
                 }
             } while (temp);
-
-            // CharacterAbs character = new CharacterAbs();
-            // character.Player();
-            // character.Enemy();
         }
     }
 }

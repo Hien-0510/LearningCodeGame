@@ -34,3 +34,15 @@ Speed: 5
 Skills: Basic Attack, , , 
 Item: 
 
+Id: 918dcbc6-186f-4901-921b-f934ccb7f5d3
+Name: BAc
+Exp: 0
+Level: 1
+Health: 100
+Mana: 100
+Power: 2
+Defense: 6
+Speed: 8
+Skills: Basic Attack
+Item: 
+
