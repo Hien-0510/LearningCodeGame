@@ -1,0 +1,36 @@
+Id: bb61f4b5-2f51-4201-9938-2de9030ddcdb
+Name: 
+Exp: 0
+Level: 1
+Health: 100
+Mana: 100
+Power: 2
+Defense: 4
+Speed: 3
+Skills: Basic Attack, Defend, Heal, Fireball
+Item: 
+
+Id: d7155ed4-f48d-4ac3-a911-b1a8f61b0951
+Name: Hien
+Exp: 0
+Level: 1
+Health: 100
+Mana: 100
+Power: 2
+Defense: 3
+Speed: 6
+Skills: Basic Attack, Defend, Heal, Fireball
+Item: 
+
+Id: eb425dd0-2fce-42f5-8130-e68bc1c56c13
+Name: MI
+Exp: 0
+Level: 1
+Health: 100
+Mana: 100
+Power: 2
+Defense: 8
+Speed: 5
+Skills: Basic Attack, , , 
+Item: 
+

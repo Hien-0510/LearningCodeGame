@@ -1,9 +1,9 @@
 namespace HelloWorld{
     public class Character : CharacterAbs
     {
-        public void Input()
+        public override void Input()
         {
-            
+            base.Input();
         }
     }
 }

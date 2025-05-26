@@ -9,7 +9,7 @@ namespace HelloWorld{
         public int Power { get { return Level * 2; } }
         public int Defense { get; set; } = Random.Shared.Next(1, 10);
         public int Speed { get; set; } = Random.Shared.Next(1, 10);
-        public List<string> Skills { get; private set; } = new List<string>();
+        public List<string> Skills { get; private set; } = new List<string>() { "Basic Attack" };
         public List<string> UnlockedSkills => Skills.Take(Level).ToList();
         public string Item { get; set; }
         public CharacterCons() { }

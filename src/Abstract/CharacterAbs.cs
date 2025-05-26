@@ -3,7 +3,7 @@ using System.Data.Common;
 namespace HelloWorld{
     public class CharacterAbs : CharacterCons
     {
-        public void Input()
+        public virtual void Input()
         {
             Console.Write("Enter your name:");
             Name = Console.ReadLine();
