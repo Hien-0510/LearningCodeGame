@@ -48,25 +48,24 @@ namespace HelloWorld{
             Name = Console.ReadLine();
         }
 
-        public void GainExp(int num)
+        public bool IsAlive()
         {
-            Exp += num;
-            while (Exp >= ExpToNextLevel())
-            {
-                Exp -= ExpToNextLevel();
-                LevelUp();
-            }
-        }
-        private void LevelUp()
-        {
-            Level++;
-            Console.WriteLine($"Chúc mừng! {Name} đã lên cấp {Level}.");
+            return MaxHealth > 0;
         }
 
-        private int ExpToNextLevel()
+        public void LevelUp()
         {
-            // Ví dụ: Cần 100 * cấp độ hiện tại để lên cấp tiếp theo
-            return 100 * Level;
+            Level++;
+            if (Level <= 10)
+            {
+                MaxHealth += 5;
+                Defense += Random.Shared.Next(1, 3);
+                Speed += Random.Shared.Next(1, 3);
+            }
+            if (Level <= 20)
+            {
+                MaxHealth += 10;
+            }
         }
     }
 }
