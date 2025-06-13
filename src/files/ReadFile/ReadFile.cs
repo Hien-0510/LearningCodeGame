@@ -5,12 +5,14 @@ namespace HelloWorld{
 
             if (File.Exists(filePath))
             {
-                Console.WriteLine("File exists. Reading file...");
-                string content = File.ReadAllText(filePath);
-                Console.WriteLine("-----------------------------");
-                Console.WriteLine("File content:");
-                Console.WriteLine("");
-                Console.WriteLine(content);
+                using (StreamReader sr = new StreamReader(filePath))
+                {
+                    string line;
+                    while ((line = sr.ReadLine()) != null)
+                    {
+                        Console.WriteLine(line);
+                    }
+                }
             }
             else
             {

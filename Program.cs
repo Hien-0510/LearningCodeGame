@@ -40,15 +40,19 @@ namespace HelloWorld
                         Console.WriteLine("Reading a file...");
                         ReadFile readFile = new ReadFile();
                         readFile.ReadFileMethod();
-                        // Call the method to read a file
                         break;
                     case 4:
                         Console.WriteLine("Deleting a file...");
-                        // Call the method to delete a file
+                        DeleteFile deleteFile = new DeleteFile();
+                        deleteFile.DeleteFileMethod();
                         break;
                     case 5:
                         Console.WriteLine("Exiting the program...");
                         temp = false;
+                        break;
+                    case 6:
+                        ICharacter Ic = new ICharacter();
+                        Ic.Attack();
                         break;
                     default:
                         Console.WriteLine("Invalid choice. Please try again.");

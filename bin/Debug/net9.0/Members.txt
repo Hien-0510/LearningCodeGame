@@ -1,23 +1,23 @@
-Id: 66756973-238b-4b16-bdf3-479aad723779
+Id: cb35f1a4-fe12-4099-a46d-257b00eb33e9
 Name: Hien
 Exp: 0
 Level: 1
 Health: 100
 Mana: 100
 Power: 2
-Defense: 1
-Speed: 4
+Defense: 6
+Speed: 8
 Skills: Basic Attack
 Item: 
 
-Id: e1f35c6d-75a9-4078-ab75-fe018fc716db
-Name: qweasd
+Id: ab9cc90c-5204-4e88-bb87-e76eb1028b95
+Name: asdasdas
 Exp: 0
 Level: 1
 Health: 100
 Mana: 100
 Power: 2
-Defense: 7
+Defense: 2
 Speed: 2
 Skills: Basic Attack
 Item: 

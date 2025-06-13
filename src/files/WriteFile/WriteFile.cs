@@ -1,6 +1,5 @@
 namespace HelloWorld{
     public class WriteFile: Character{
-        private object sw;
 
         public void WriteFileMethod(){
             string filePath = "Members.txt";
