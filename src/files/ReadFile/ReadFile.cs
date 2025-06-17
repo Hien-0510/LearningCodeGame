@@ -1,7 +1,7 @@
 namespace HelloWorld{
     public class ReadFile{
         public void ReadFileMethod(){
-            string filePath = "Members.txt";
+            string filePath = "Members.json";
 
             if (File.Exists(filePath))
             {

@@ -54,15 +54,12 @@ namespace HelloWorld
                         break;
                     case 5:
                         Console.WriteLine("Void Attack initiated...");
-                        ICharacter Ic = new ICharacter();
-                        Ic.Attack();
-                        break;
-                    case 6:
-                        Console.WriteLine("Exiting the program...");
-                        temp = false;
+                        Character character = new Character();
+                        character.Attack();
                         break;
                     default:
                         Console.WriteLine("Invalid choice. Please try again.");
+                        temp = false;
                         break;
                 }
             } while (temp);

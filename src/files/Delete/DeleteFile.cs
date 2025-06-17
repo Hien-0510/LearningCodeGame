@@ -4,7 +4,7 @@ namespace HelloWorld
     {
         public void DeleteFileMethod()
         {
-            string filePath = "Members.txt";
+            string filePath = "Members.json";
             if (File.Exists(filePath))
             {
                 Console.WriteLine("File exists. Deleting file...");
